@@ -1,0 +1,3 @@
+describe PointHistogram do
+
+end

@@ -1,0 +1,3 @@
+describe TrajectoriesSummarizer do
+
+end

@@ -1,0 +1,3 @@
+describe KmlWriter do
+
+end

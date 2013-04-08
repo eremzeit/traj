@@ -1,0 +1,4 @@
+describe Sample do
+
+end
+
