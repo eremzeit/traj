@@ -1,7 +1,7 @@
 traj
 ====
 
-traj is a collection of utility classes for experimenting with analyzing spatial trajectories.
+traj is a collection of utility classes for experimenting with analyzing spatial trajectories.  It is very WIP.
 
 As of now, the raw data I use as input is the GeoLife database.
 
