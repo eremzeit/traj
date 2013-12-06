@@ -12,6 +12,8 @@ class TrajectoriesSummarizer
       end_date = traj.last.date.strftime('%c')
       average_sample_rate = traj.sample_rate[:mean]
       std_dev_sample_rate = traj.sample_rate[:std_dev]
+
+      #TODO: is this right?
       duration_hours = ((traj.last.date - traj.first.date) * 24.0).to_f
       [start_date, end_date, duration_hours, average_sample_rate, std_dev_sample_rate]
     end

@@ -165,6 +165,7 @@ class Sample
     self.date
   end
 
+  # If the method is stored in the values hash, return it
   def method_missing(m, *args, &block)
     m_str = m.to_s
     if m_str[-1] == '='
